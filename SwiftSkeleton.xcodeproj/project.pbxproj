@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0DE22AB1E5BDCCF00AE7BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DE22AA1E5BDCCF00AE7BEB /* AppDelegate.swift */; };
+		B0DE22AD1E5BDCCF00AE7BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DE22AC1E5BDCCF00AE7BEB /* Assets.xcassets */; };
+		B0DE22B01E5BDCCF00AE7BEB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0DE22AE1E5BDCCF00AE7BEB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0DE22A71E5BDCCF00AE7BEB /* SwiftSkeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSkeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DE22AA1E5BDCCF00AE7BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0DE22AC1E5BDCCF00AE7BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0DE22AF1E5BDCCF00AE7BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B0DE22B11E5BDCCF00AE7BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0DE22A41E5BDCCF00AE7BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0DE229E1E5BDCCF00AE7BEB = {
+			isa = PBXGroup;
+			children = (
+				B0DE22A91E5BDCCF00AE7BEB /* SwiftSkeleton */,
+				B0DE22A81E5BDCCF00AE7BEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0DE22A81E5BDCCF00AE7BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0DE22A71E5BDCCF00AE7BEB /* SwiftSkeleton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0DE22A91E5BDCCF00AE7BEB /* SwiftSkeleton */ = {
+			isa = PBXGroup;
+			children = (
+				B0DE22AA1E5BDCCF00AE7BEB /* AppDelegate.swift */,
+				B0DE22AC1E5BDCCF00AE7BEB /* Assets.xcassets */,
+				B0DE22AE1E5BDCCF00AE7BEB /* MainMenu.xib */,
+				B0DE22B11E5BDCCF00AE7BEB /* Info.plist */,
+			);
+			path = SwiftSkeleton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0DE22A61E5BDCCF00AE7BEB /* SwiftSkeleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0DE22B41E5BDCCF00AE7BEB /* Build configuration list for PBXNativeTarget "SwiftSkeleton" */;
+			buildPhases = (
+				B0DE22A31E5BDCCF00AE7BEB /* Sources */,
+				B0DE22A41E5BDCCF00AE7BEB /* Frameworks */,
+				B0DE22A51E5BDCCF00AE7BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSkeleton;
+			productName = SwiftSkeleton;
+			productReference = B0DE22A71E5BDCCF00AE7BEB /* SwiftSkeleton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0DE229F1E5BDCCF00AE7BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Diatomic Software LLC";
+				TargetAttributes = {
+					B0DE22A61E5BDCCF00AE7BEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FU8886GUJA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B0DE22A21E5BDCCF00AE7BEB /* Build configuration list for PBXProject "SwiftSkeleton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0DE229E1E5BDCCF00AE7BEB;
+			productRefGroup = B0DE22A81E5BDCCF00AE7BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0DE22A61E5BDCCF00AE7BEB /* SwiftSkeleton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0DE22A51E5BDCCF00AE7BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DE22AD1E5BDCCF00AE7BEB /* Assets.xcassets in Resources */,
+				B0DE22B01E5BDCCF00AE7BEB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0DE22A31E5BDCCF00AE7BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DE22AB1E5BDCCF00AE7BEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0DE22AE1E5BDCCF00AE7BEB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0DE22AF1E5BDCCF00AE7BEB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0DE22B21E5BDCCF00AE7BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0DE22B31E5BDCCF00AE7BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		B0DE22B51E5BDCCF00AE7BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FU8886GUJA;
+				INFOPLIST_FILE = SwiftSkeleton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diatomics.com.edu.SwiftSkeleton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B0DE22B61E5BDCCF00AE7BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FU8886GUJA;
+				INFOPLIST_FILE = SwiftSkeleton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diatomics.com.edu.SwiftSkeleton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0DE22A21E5BDCCF00AE7BEB /* Build configuration list for PBXProject "SwiftSkeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0DE22B21E5BDCCF00AE7BEB /* Debug */,
+				B0DE22B31E5BDCCF00AE7BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0DE22B41E5BDCCF00AE7BEB /* Build configuration list for PBXNativeTarget "SwiftSkeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0DE22B51E5BDCCF00AE7BEB /* Debug */,
+				B0DE22B61E5BDCCF00AE7BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0DE229F1E5BDCCF00AE7BEB /* Project object */;
+}
